@@ -1,3 +1,4 @@
 
 *.xml
 .idea/CSE408-Tweet-Analysis.iml
+.DS_Store
