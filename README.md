@@ -3,7 +3,8 @@
 A repo for our project in explainable twitter sentimental analysis. For more information, please visit https://www.kaggle.com/kazanova/sentiment140.
 
 ## Instruction of running code
-  1. In order to run the code, please use google colab plateform, change the code "df = pd.read_csv("/content/drive/MyDrive/CSE 408/Data/training.csv", encoding =DATASET_ENCODING , names=DATASET_COLUMNS)" to the filepath which you put training.csv on. All the download needed package are in command lines in jupyter notebook. 
+  1. In order to run the code, please use google colab plateform, change the code "df = pd.read_csv("/content/drive/MyDrive/CSE 408/Data/training.csv", encoding =DATASET_ENCODING , names=DATASET_COLUMNS)" to the filepath which you put training.csv on. All the download needed package are in command lines in jupyter notebook.
+  2. Since Github has issue to show the ipynb file here, please download the sentimentAnalysis.ipynb file to your local computer, then upload to github to test the code. 
   
 ## Implementation Details
   1. We use the famous benchmark sentiment140 datasets which contains 1.6 millions tweets, the tweets are labeled either positive or negative sentiment. See the data foler training.zip file to extract the csv dataset file. The datasets are balanced which means it contains 800000 positive tweets and negative tweets and no missing values, the team also replace the target “0”, “4” to “NEGATIVE” and “POSITIVE”. 
