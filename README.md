@@ -1,6 +1,7 @@
-# CSE408-Tweet-Analysis
+# CSE408-Twitter-Sentiment-Analysis
 
 A repo for our project in explainable twitter sentimental analysis. For more information, please visit https://www.kaggle.com/kazanova/sentiment140.
+
 ## Instruction of running code
   1. In order to run the code, please use google colab plateform, change the code "df = pd.read_csv("/content/drive/MyDrive/CSE 408/Data/training.csv", encoding =DATASET_ENCODING , names=DATASET_COLUMNS)" to the filepath which you put training.csv on. All the download needed package are in command lines in jupyter notebook. 
   
@@ -12,3 +13,12 @@ A repo for our project in explainable twitter sentimental analysis. For more inf
   3. Due to the machine limited, we will use 25000 tweets as training dataset and 3000 tweets as testing datasets instead of splitting 1.6 millions. For the training dataset, we use nlpaug and textattack data augmentation technologies, we use the SynonymAug to generate 5000 similar texts and merge them into training dataset, the goal is to generate more sentiment words to avoid overfitting problems.
  
   4. We develop Deep Learning model by fine tuning hyperparameters from existing state-of-art model architectures(LSTM).
+  
+## Refrences
+  1. Nlpaug: https://nlpaug.readthedocs.io/en/latest/
+  2. TextAttack: https://textattack.readthedocs.io/en/latest/
+  3. Kaggle Twitter Sentiment Analysis: https://www.kaggle.com/paoloripamonti/twitter-sentiment-analysis/output
+  4. Twitter Feature Extraction: https://www.kaggle.com/tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model/data
+  5. Model Training LSTM: https://www.kaggle.com/arunrk7/nlp-beginner-text-classification-using-lstm
+
+
